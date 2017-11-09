@@ -3,7 +3,7 @@ import java.util.HashMap;
 //import java.util.Scanner;
 
 /**
- * @author TODO: please add student ID and name here
+ * @author TODO: please add B0544143 and 洪千惠 here
  * Try to write some comments for your codes (methods, 10 points)
  */
 public class HW3 {
@@ -82,7 +82,7 @@ public class HW3 {
 			}
 
 		}
-		if(checkHash.keySet().size()==52){
+		if(checkHash.keySet().size()==52||checkHash.keySet().size()==50){
 			for(int value:checkHash.values()){
 				if(value!=nDeck){
 					isCorrect=false;
